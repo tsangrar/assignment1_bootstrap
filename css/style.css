@@ -1,0 +1,196 @@
+/*=======NAVBAR=======*/
+
+#nav_top
+{
+	background-color: white;
+	text-transform: uppercase;
+	box-shadow: 5px 5px 5px 1px #888888;
+}
+
+.l_space
+{
+	padding-left: 25px;
+	padding-top: 10px;
+	color: gainsboro;
+}
+
+#brand_logo
+{
+	width: 90px;
+	margin-left: 65px;
+	border-radius: 50%;
+}
+.nav>li
+{
+	margin-bottom: 2px;
+}
+.nav > li>a:hover
+{
+	background-color: white;
+	color: dodgerblue;
+	width: 100%;
+}
+
+.nav>li>a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: navy;
+    transition: width .3s;
+}
+
+.under {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.under::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: navy;
+    transition: width .3s;
+}
+
+.under:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+/*=======BODY=======*/
+
+.show
+{
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	width: 100%;
+	height: 500px;
+}
+
+#showcase_head
+{
+	font-size: 3em;
+	color: white;
+	font-weight: 800;
+}
+
+.circular
+{
+	font-size: 2em;
+}
+
+#mid_section
+{
+	border-bottom: 1px solid black;
+	width: 100%;
+	font-size:1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+}
+
+#search_btn
+{
+	color: midnightblue;
+}
+
+#items
+{
+	background-color: #F8F9FA;
+	width: 100%;
+	
+}
+
+.item
+{
+	margin-top: 50px;
+	background-color: white;
+	border: 1px solid #dbdee0;
+	padding-bottom: 20px;
+}
+
+.item img
+{
+	width: 120px;
+	margin-left:20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#load
+{
+	margin-top: 30px;
+	font-size:1.2em;
+	float: right;
+	text-decoration: underline;
+	margin-bottom: 80px;
+}
+
+.recommend img
+{
+ width:500px;
+}
+.recommend
+{
+	margin-bottom: 10px;
+	width: 100%;
+}
+.join
+{
+	background-color: #F8F9FA;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#special_text
+{
+	margin-top: 50px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-decoration-color: gray;
+}
+
+#special_text a
+{
+	color: gray;
+}
+
+.social h2
+{
+margin-left: 20px;	
+	color: gray!important;
+}
+
+.social svg
+{
+	font-size:20px;
+	margin-top: 20px;
+    margin-left: 10px;
+	color:grey;
+}
+
+#inspire
+{
+	margin-top: 40px;
+	margin-left: 90px;
+	font-size:1.2em;
+	color:grey;
+}
+
+footer
+{
+	width: 100%;
+	background-color: black;
+	height: 30px;
+}
+
+footer p
+{
+	margin-bottom: 0;
+	padding-top:5px;
+	color: white;
+	text-align: center;
+}
